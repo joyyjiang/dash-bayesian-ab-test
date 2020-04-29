@@ -58,11 +58,11 @@ body {
 
 #exp_sample,
 #exp_success {
-  border-color: #5B84B1;
-  background-color: #5B84B133;
+  border-color: #34558b;
+  background-color: #34558b33;
 }
 #experiment_group {
-  color: #5B84B1;
+  color: #34558b;
 }
 #control_group {
   color: #FC766A;

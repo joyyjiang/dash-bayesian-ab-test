@@ -146,7 +146,7 @@ def update_beta(ctl_sample,ctl_success,exp_sample,exp_success):
         "y":y_exp,
         "fill":'tozerox',
         "mode":"lines",
-        "marker":dict(color='5B84B1'),
+        "marker":dict(color='34558b'),
         "name": "Experiment"
         }
 
