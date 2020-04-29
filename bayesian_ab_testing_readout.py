@@ -131,7 +131,7 @@ def update_beta(ctl_sample,ctl_success,exp_sample,exp_success):
         "y":y_ctl,
         "fill":'tozerox',
         "mode":"lines",
-        "marker":dict(color='0009CB'),
+        "marker":dict(color='FC766A'),
         "name": "Control"
         }
     # experiment group posterior distri
@@ -146,13 +146,13 @@ def update_beta(ctl_sample,ctl_success,exp_sample,exp_success):
         "y":y_exp,
         "fill":'tozerox',
         "mode":"lines",
-        "marker":dict(color='9A00A2'),
+        "marker":dict(color='5B84B1'),
         "name": "Experiment"
         }
 
     fig_dict["data"]=[data_ctl,data_exp]
     fig_dict["layout"]= dict(
-                                title='posterior pdf of control and experiment\'s binomial parameter p',
+                                title='Posterior pdf of control and experiment\'s binomial parameter p',
                                 xaxis=dict(title='p'),
                                 yaxis=dict(title='pdf'),
                                 hovermode='closest',
@@ -195,7 +195,7 @@ def update_lift(ctl_sample,ctl_success,exp_sample,exp_success,threshold):
             y=y,
             mode="lines",
             fill="tozerox",
-            line=dict(color='#5B0069',shape='spline',smoothing=1.3,width=3)
+            line=dict(color='#5F4B8B',shape='spline',smoothing=1.3)
             )]
     layout = go.Layout(title='Probability that lift exceeds '+ str(threshold*100) + '% is ' + str(prob*100)+'%',
                 xaxis=dict(title='%lift'),

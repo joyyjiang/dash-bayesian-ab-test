@@ -52,18 +52,18 @@ body {
 }
 #ctl_sample,
 #ctl_success {
-  border-color: #0009CB;
-  background-color: #0009CB33;
+  border-color: #FC766A;
+  background-color: #FC766A33;
 }
 
 #exp_sample,
 #exp_success {
-  border-color: #9A00A2;
-  background-color: #9A00A233;
+  border-color: #5B84B1;
+  background-color: #5B84B133;
 }
 #experiment_group {
-  color: #9A00A2;
+  color: #5B84B1;
 }
 #control_group {
-  color: #0009CB;
+  color: #FC766A;
 }
