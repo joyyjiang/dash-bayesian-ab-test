@@ -31,7 +31,7 @@ The top graph shows updated beta distribution of control and experiment group, g
 
 The bottom graph shows the distribution of %lift. It is an arbitrary plot based on 100,000 simulations from the posterior distributions. The right side of the dotted line is the portion of the plot that exceeds the minimum % lift. 
 
-The final recommmendation is based on the portion of the %lift plot.  If it exceeds 95%, the experiment group is the winner. if it is lower than 5%, control group the winner. Any value in between,  we cannot reach a conclusion yet.
+The final recommendation is based on the portion of the %lift plot.  If it exceeds 95%, the experiment group is the winner. if it is lower than 5%, control group the winner. Any value in between,  we cannot reach a conclusion yet.
 
 Note that there's no industry standard of choosing a decision rule or setting the decision rule's threshold,since Bayesian AB testing is still fairly young.  Different people may have different methodologies.  
 
