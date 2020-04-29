@@ -3,7 +3,7 @@ This web app interprets your Bayesian AB testing result.
 
 ## Assumptions: 
 1. it's built for ab testing metrics that have binary outcomes, eg conversion, retention, click-through, customer complaint etc.
-2. it assumes no prior knowledge about the metircs. it sets prior beta distribution's parameter to be alpha=beta=1. this way,  we let the data fully determine the posterior distribution, without mixing our bias in the process.
+2. it assumes no prior knowledge about the metircs. it sets prior beta distribution's parameter to be alpha=beta=1, which is called uninformative prior. This way,  we let the data fully determine the posterior distribution, without mixing our bias in the process. One drawback of setting uninformative prior is that it takes longer for the distribution to converge, but as we collect more data,  the distributions will converge to a similar degree as informative priors. 
 
 
 ## Input: It takes 5 values
