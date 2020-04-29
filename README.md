@@ -13,13 +13,13 @@ This web app interprets your Bayesian AB testing result.
 population in control group
 
 ### Control group's success #:
-count of successful events in control group. A success is defined as making a conversion, click-through etc)
+count of successful events in control group. A success is defined as making a conversion, click-through etc.
 
 ### Experiment group sample size:
 population in control group
 
 ### Experiment group's success #:
-count of successful events in experiment group. A success is defined as making a conversion, click-through etc)
+count of successful events in experiment group. A success is defined as making a conversion, click-through etc.
 
 ### minimum %lift:
 percent lift(%lift) is defined as percentage increase of metrics in experiment group compared to control group. Mathematically,
@@ -34,4 +34,4 @@ The bottom graph shows the distribution of %lift. It is an arbitrary plot based 
 
 The final recommendation is based on the portion of the %lift plot.  If it exceeds 95%, the experiment group is the winner. if it is lower than 5%, control group the winner. Any value in between,  we cannot reach a conclusion yet.
 
-Note that there's no industry standard of choosing a decision rule or setting the decision rule's threshold,since Bayesian AB testing is still fairly young.  Different people may have different methodologies.  
+Note that there's no industry standard of choosing a decision rule or setting the decision rule's threshold, since Bayesian AB testing is still fairly young.  Different people may have different methodologies.  
