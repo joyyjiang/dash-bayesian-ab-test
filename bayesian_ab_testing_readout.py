@@ -6,8 +6,12 @@ import plotly.figure_factory as ff
 import plotly.graph_objects as go
 import numpy as np
 from scipy.stats import beta
+import dash_auth
+
+USERNAME_PASSWORD_PAIRS = [['username','password'],['yuejiang','yuejiang918!']]
 
 app = dash.Dash(__name__)
+auth = dash_auth.BasicAuth(app,USERNAME_PASSWORD_PAIRS)
 
 app.layout = html.Div([
     html.H1(
