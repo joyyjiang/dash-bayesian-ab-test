@@ -1,5 +1,5 @@
 # dash-bayesian-ab-test
-This web app interprets your Bayesian AB testing result.  
+This web app interprets your Bayesian AB testing result.  It can be accessed at https://dash-bayesian-ab-test.herokuapp.com/
 
 ## Assumptions:
 1. It's built for ab testings that have binary outcomes, eg conversion, retention, click-through, customer complaint etc. The binary outcomes' successes are modeled as binomial distribution with parameter p. p itself follows beta distribution.
