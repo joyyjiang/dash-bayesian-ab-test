@@ -4,9 +4,9 @@ This web app interprets your Bayesian AB testing result.  It can be accessed at 
 ## Assumptions:
 1. It's built for ab testings that have binary outcomes, eg conversion, retention, click-through, customer complaint etc. The binary outcomes' successes are modeled as binomial distribution with parameter p. p itself follows beta distribution.
 
-  **s ~ Binomial(n,p)  n=trial size, p=success rate, s=num of success;**
-  
-  **p ~ Beta(x;α,β)   α=success+1, β=failure+1**
+    **s ~ Binomial(n,p)  n=trial size, p=success rate, s=num of success;**
+
+    **p ~ Beta(x;α,β)   α=success+1, β=failure+1**
 
 Beta distribution has conjugate prior, meaning that the prior and posterior distribution are both in the beta family, with parameters alpha and beta being different.
 
